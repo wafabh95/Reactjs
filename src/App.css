@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -12,8 +13,37 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.top{
+  margin-top: 35px;
+}
+.avatar-pic {
+  width: 150px;
+  }
+  input{
+    margin-bottom: 20px !important;
+  }
+.title{
+  font-size: 38px;
+  font-weight: bold;
+  font-family: Courgette !important;
+  color: rgb(18, 0, 85);
+  text-shadow: 2px 2px #00a2ff;
 
-.App-header {
+}
+label{
+  font-weight: bold;
+}
+#date{
+  width: 100%;
+}
+.btn-success{
+  width: 60%;
+}
+.sex{
+  font-weight: normal;
+}
+
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,7 +52,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
 .App-link {
   color: #61dafb;
